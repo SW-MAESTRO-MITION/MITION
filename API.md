@@ -9,7 +9,7 @@
 ### 유저 회원가입
 - method: post
 - body: name, password, email, phone_number
-- url: user/sign
+- url: user/sign_up
 - response: USER object
 
 ### 유저 로그인

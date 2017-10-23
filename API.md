@@ -1,7 +1,5 @@
 # API
 
-아직 못 짠 API: 전대인 정보가져오기(어떻게 할지 더 정리하기), 지도 API는 보류. 계약서 만들기, 결제하기, 싸인하기, push 보류
-
 > candidate_room을 dibs로 변경함. dibs = 찜하다.
 
 ## USER

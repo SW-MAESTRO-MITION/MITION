@@ -25,6 +25,5 @@
 - default: 0
 
 ## dibs
-[room_id
-- type: string
-]
+- 찜한 방들
+- 자료형: string[]

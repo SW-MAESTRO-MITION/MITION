@@ -72,7 +72,8 @@
 ----------------------
 
 ## Real Estate Contract
-- 
+- 부동산 계약 정보
+
 ###	contract_id
 - 계약 식별자 
 - 자료형 : string
@@ -88,21 +89,22 @@
 - 자료형 : int
 - 입력 선택
 
-###	"mid_price": {
+###	mid_price
 - 중도금 
 - 자료형 : int
-- 입력 선택
 - 기본값 : 0
+- 입력 선택
 
 ###	final_price
 - 잔금
 - 자료형 : int
-- default : 0
+- 기본값 : 0
 - 입력 선택
 
 ###	month_money
 - 월세금
 - 자료형 : int
+- 기본값 : 0
 - 입력 선택
 
 ###	address
@@ -118,6 +120,7 @@
 ###	land_size
 - 토지 정보 : 면적
 - 자료형 : number
+- 기본값 : 0
 - 입력 선택
 
 ###	building_struct
@@ -132,7 +135,8 @@
 
 ###	building_size
 - 건물 정보 : 면적
-- 자료형 : string
+- 자료형 : number
+- 기본값 : 0
 - 입력 선택
 
 ###	duration

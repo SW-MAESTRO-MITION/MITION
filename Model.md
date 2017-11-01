@@ -20,7 +20,7 @@
 
 ### id_number
 - 주민등록번호
-- 자료형 : int
+- 자료형 : string
 - 입력 필수
 
 ### phone_number
@@ -69,17 +69,10 @@
 - 자료형 : string
 - 입력 필수
 
-## Real Estate Contract
-- 
-### contract_id
-- 계약 종류 식별자 (부동산 계약, 중고자 계약, ...)
-- 자료형 : string
-- 입력 필수
-
 ----------------------
 
-## real_estate_type
-
+## Real Estate Contract
+- 
 ###	contract_id
 - 계약 식별자 
 - 자료형 : string

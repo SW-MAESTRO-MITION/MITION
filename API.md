@@ -1,7 +1,5 @@
 # API
 
-> candidate_room을 dibs로 변경함. dibs = 찜하다.
-
 ## USER
 
 ### 유저 회원가입

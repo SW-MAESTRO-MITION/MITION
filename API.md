@@ -4,7 +4,7 @@
 
 ### 유저 회원가입
 - method: post
-- body: name, password, email, phone_number
+- body: name, email, phone_number
 - url: user/sign
 - response: USER object
 

@@ -2,41 +2,25 @@
 
 ## USER
 
-### 유저 회원가입
+### 거래 주체 등록
 - method: post
 - body: name, email, phone_number
-- url: user/sign
+- url: user/signup_user
 - response: USER object
 
-### 유저 로그인
-- method: post
-- body: id, password
-- url: user/login
-- response: USER object
-
-### 유저 정보 가져오기
+### 거래 주체 정보 가져오기
 - method: get
 - param: user_id
 - url: user/:id
 - response: USER object
 
-### 찜한 방 가져오기 (없어도 될 듯, 유저 데이터를 가져올 때 같이 날라옴.)
-- method: get
-- param: user_id
-- url: user/:id/dibs
-- response: USER object
+## ITEM
 
-### 방 찜하기
-- method: put
-- param: room_id
-- url: user/dibs/:id/addtion
-- response: USER object
-
-### 방 찜하기 취소
-- method: put
-- param: room_id
-- url: user/dibs/:id/extraction
-- response: USER object
+### 거래 물품 및 수량 등록
+- method: post
+- body: item_type, item_name, item_count
+- url: user/signup_item
+- response: ITEM object
  
 ## CONTRACT
 
@@ -45,11 +29,3 @@
 - param: resident_user_id
 - url: contract/user/:id
 - response: CONTRACT object
-
-## ROOM
-
-### 방 정보 가져오기
-- method: get
-- param: room_id
-- url: room/:id
-- response: ROOM object

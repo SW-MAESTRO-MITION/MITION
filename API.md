@@ -2,30 +2,40 @@
 
 ## USER
 
-### 거래 주체 등록
+### 회원가입 (createUser)
 - method: post
-- body: name, email, phone_number
-- url: user/signup_user
+- body: name, email, password
+- url: /user
 - response: USER object
 
-### 거래 주체 정보 가져오기
+### 로그인 (getUser)
 - method: get
-- param: user_id
-- url: user/:id
+- params: id
+- url: /user/:id
 - response: USER object
 
-## ITEM
+### 회원정보수정 (modifyUser)
+- method: put
+- params: id
+- url: /user/:id
+- response: USER object
 
-### 거래 물품 및 수량 등록
-- method: post
-- body: item_type, item_name, item_count
-- url: user/signup_item
-- response: ITEM object
- 
+### 회원탈퇴 (deleteUser)
+- method: delete
+- params: id
+- url: /user/:id
+- response: USER object
+
+
 ## CONTRACT
 
-### 계약 정보 가져오기
+### 계약 등록 (addContract)
+- method: post
+- body: date, hash, name
+- url: /contract/add
+
+### 계약 찾기 (findContract)
 - method: get
-- param: resident_user_id
-- url: contract/user/:id
+- param: hash
+- url: /find/:hash
 - response: CONTRACT object

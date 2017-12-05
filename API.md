@@ -39,3 +39,10 @@
 - param: hash
 - url: /find/:hash
 - response: CONTRACT object
+
+## MAILING
+
+### 메일전송 (sendMail)
+- method: post
+- body: hostmail, guestmail
+- url: /mailing

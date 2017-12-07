@@ -1,24 +1,53 @@
 # Model
 
-## User
-- 사용자
+## user
+- name
+  - type: string
+  - required: true
+- email
+  - type: string
+  - required: true
 
-### name
-- 사용자 이름
-- 자료형 : string
-- 입력 필수
+- password
+  - type: string
+  - required: true
 
-### email
-- 이메일 주소
-- 자료형 : string
-- 입력 필수
+- address
+  - type: string
+  - required: true
 
-### password
-- 비밀번호
-- 자료형 : string
-- 입력필수
+## registeredTransaction
 
-### address
-- EOA 주소
-- 자료형 : string
-- 입력 필수
+- email
+  - type: string
+  - required: true
+
+- path
+  - type: string
+  - required: true
+
+## transaction
+
+- sender_name
+  - type: string
+  - required: true
+
+- sender
+  - type: string
+  - required: true
+
+- recipient
+  - type: string
+  - required: true
+
+- path
+  - type: string
+  - required: true
+
+- file_name
+  - type: string
+  - required: true
+
+- transaction_date
+  - type: string
+  - required: true

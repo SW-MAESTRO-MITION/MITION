@@ -7,14 +7,18 @@
 - email
   - type: string
   - required: true
-
 - password
   - type: string
   - required: true
-
 - address
   - type: string
-  - required: true
+- transaction_id
+  - type: string
+- type_of_party
+  - type: string
+- is_checked_registered_contract
+  - type: boolean
+  - default: true
 
 ## registeredTransaction
 

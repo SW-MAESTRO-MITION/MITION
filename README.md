@@ -1,4 +1,8 @@
 # MITION 소개
+
+- Demo
+<iframe width="420" height="315" src="https://youtu.be/ilk7K1mLcOY" frameborder="0" allowfullscreen></iframe>
+
 - MITION은 블록체인 기반 계약 관리 플랫폼이다. MITION은 오프라인 절차가 포함될 수밖에 없는 거래의 계약을 관리해주는 기능을 수행한다. 블록체인으로 계약을 관리하여 계약의 신뢰성을 보장해주기 때문에 중복 계약을 방지할 수 있고 오프라인 계약서의 위/변조를 예방할 수 있다. 
 - 블록체인은 이더리움 플랫폼을 기반으로 구축한다.
 - MITION은 제 8기 SW Maestro 과정에서 MITION 팀이 개발하고 있는 프로젝트이다. MITION 팀은 팀장 홍상원과 팀원 신건우, 최상훈으로 구성되어 있다.

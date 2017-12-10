@@ -1,13 +1,17 @@
-# MITION 소개
+# Introduction to MITION
 
 [![demo](https://j.gifs.com/0V9YOX.gif)](https://youtu.be/ilk7K1mLcOY)
 
-- MITION은 블록체인 기반 계약 관리 플랫폼이다. MITION은 오프라인 절차가 포함될 수밖에 없는 거래의 계약을 관리해주는 기능을 수행한다. 블록체인으로 계약을 관리하여 계약의 신뢰성을 보장해주기 때문에 중복 계약을 방지할 수 있고 오프라인 계약서의 위/변조를 예방할 수 있다.
-- 블록체인은 이더리움 플랫폼을 기반으로 구축한다.
-- MITION은 제 8기 SW Maestro 과정에서 MITION 팀이 개발하고 있는 프로젝트이다. MITION 팀은 팀장 홍상원과 팀원 신건우, 최상훈으로 구성되어 있다.
+__MITION__ is a blockchain-based contract management platform. __It__ manages contracts online which necessarily includes off-line steps to get the legal character. If you use __this platform__ to manage contracts, __it__ guarantees not to falsify the contract and not to make the duplicate contract because of using the blockchain. It is a decentralized application, which is a smart contract, so it is based on Ethereum, a blockchain-based distributed computing platform featuring smart contract functionality.
 
-# MITION 개요
-## 1. 서비스 특징
+__MITION__ is developed by Team 'MITION' consisting of Sangwon Hong, Gunwoo Shin, and Sanghoon Choi at SW Maestro 8th.
+
+__MITION__ 은 블록체인 기반 계약 관리 플랫폼이다. __MITION__ 은 오프라인 절차가 포함될 수밖에 없는 거래의 계약을 관리해주는 기능을 수행한다. 블록체인으로 계약을 관리하여 계약의 신뢰성을 보장해주기 때문에 중복 계약을 방지할 수 있고 오프라인 계약서의 위/변조를 예방할 수 있다. __MITION__ 은 분산 어플리케이션이기 때문에 스마트 컨트랙트를 개발할 수 있는 이더리움 플랫폼 기반으로 구축하였다.
+
+__MITION__ 은 제 8기 SW Maestro 과정에서 팀장 홍상원과 팀원 신건우, 최상훈으로 구성되된 MITION 팀이 개발하고 있다.
+
+# Summary of MITION
+## 1. Characteristics of Service
 - 오프라인 절차가 포함될 수밖에 없는 거래 환경에서 계약의 신뢰성 확보 (ex. 임대, 예약, 판매)
 - 중복 계약 방지
 - 오프라인 계약서 위변조 방지
